@@ -429,7 +429,6 @@ function createLaunchCard(launch) {
   return card;
 }
 
-// Function to initialize the timeline
 function initializeTimeline() {
   const launchesSection = document.getElementById('launches');
   const launchCards = document.getElementsByClassName('card');
@@ -463,6 +462,8 @@ function initializeTimeline() {
   // Check card visibility on scroll
   window.addEventListener('scroll', checkVisibility);
 }
+
+
 
 // Initialize the timeline when the page finishes loading
 window.addEventListener('load', initializeTimeline);
