@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #222;
-    color: #fff;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  width: 100%;
+}
   
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #000000;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -27,6 +29,11 @@ h1 {
 main {
   padding-top: 10px;
   padding: 20px;
+}
+
+.main {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h2{
@@ -47,11 +54,39 @@ h2{
   margin-left: 10px;
 }
 
-.navigation a {
+.slide-bar {
+  position: relative;
   color: #fff;
+  overflow: hidden;
   text-decoration: none;
 }
 
-.navigation a:hover {
-  text-decoration: underline;
+.slide-bar::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  right:0;
+  transition: width 0.2s ease-in-out;
+}
+
+.slide-bar:hover::before {
+  left: 0;
+  width: 100%;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

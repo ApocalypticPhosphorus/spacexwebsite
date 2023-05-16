@@ -1,7 +1,7 @@
 // Sample data for SpaceX launches
 const launches = [
   {
-    rocketImg: 'falcon1.png',
+    rocketImg: 'images/FalconSAT-2.jpeg',
 
     mission: 'Falcon 1 Flight 1',
     date: 'March 24, 2006',
@@ -24,7 +24,7 @@ const launches = [
     recoveries: '1/0/0'
   },
   {
-    rocketImg: 'falcon1.png',
+    rocketImg: 'images/falcon1.png',
 
     mission: 'Falcon 1 Flight 2',
     date: 'March 21, 2007',
@@ -47,7 +47,7 @@ const launches = [
     recoveries: '2/0/0'
   },
   {
-    rocketImg: 'falcon1.png',
+    rocketImg: 'images/falcon1.png',
 
     mission: 'Falcon 1 Flight 3',
     date: 'August 3, 2008',
@@ -70,7 +70,7 @@ const launches = [
     recoveries: '3/0/0'
   },
   {
-    rocketImg: 'falcon1.png',
+    rocketImg: 'images/falcon1.png',
 
     mission: 'Falcon 1 Flight 4',
     date: 'September 28, 2008',
@@ -93,7 +93,7 @@ const launches = [
     recoveries: '4/0/0'
   },
   {
-    rocketImg: 'falcon1.png',
+    rocketImg: 'images/falcon1.png',
 
     mission: 'Falcon 1 Flight 5',
     date: 'July 14, 2009',
@@ -116,7 +116,7 @@ const launches = [
     recoveries: '5/0/0'
   },
   {
-    rocketImg: 'falcon91.0.jpg',
+    rocketImg: 'images/falcon91.0.jpg',
 
     mission: 'Falcon 9 Flight 1',
     date: 'June 4, 2010',
@@ -139,7 +139,7 @@ const launches = [
     recoveries: '5/0/1'
   },
   {
-    rocketImg: 'falcon91.0.jpg',
+    rocketImg: 'images/falcon91.0.jpg',
 
     mission: 'Falcon 9 Flight 2',
     date: 'December 8, 2010',
@@ -162,7 +162,7 @@ const launches = [
     recoveries: '5/0/2'
   },
   {
-    rocketImg: 'falcon91.0.jpg',
+    rocketImg: 'images/falcon91.0.jpg',
 
     mission: 'Falcon 9 Flight 3',
     date: 'May 22, 2012',
@@ -185,7 +185,7 @@ const launches = [
     recoveries: '6/0/2'
   },
   {
-    rocketImg: 'falcon91.0.jpg',
+    rocketImg: 'images/CRS-1.jpg',
 
     mission: 'CRS-1',
     date: 'October 8, 2012',
@@ -208,7 +208,7 @@ const launches = [
     recoveries: '7/0/2'
   },
   {
-    rocketImg: 'falcon91.0.jpg',
+    rocketImg: 'images/CRS-2.jpg',
 
     mission: 'CRS-2',
     date: 'March 1, 2013',
@@ -231,7 +231,7 @@ const launches = [
     recoveries: '8/0/2'
   },
   {
-    rocketImg: 'falcon91.1.jpg',
+    rocketImg: 'images/CASSIOPE.jpg',
 
     mission: 'Falcon 9 Demonstration Flight',
     date: 'September 29, 2013',
@@ -254,7 +254,7 @@ const launches = [
     recoveries: '9/0/2'
   },
   {
-    rocketImg: 'falcon91.1.jpg',
+    rocketImg: 'images/SES-8.jpg',
 
     mission: 'SES-8',
     date: 'December 3, 2013',
@@ -277,7 +277,7 @@ const launches = [
     recoveries: '10/0/2'
   },
   {
-    rocketImg: 'falcon91.1.jpg',
+    rocketImg: 'images/THAICOM 6.jpg',
 
     mission: 'Thaicom 6',
     date: 'January 6, 2014',
@@ -291,7 +291,7 @@ const launches = [
     configuration: 'Falcon 9 v1.1',
     cost: '~$56.5M-61.2M',
     
-    booster: 'B1004',
+    booster: 'N/A',
     landing: 'N/A',
     fairings: 'N/A',
     
@@ -381,11 +381,13 @@ function createLaunchCard(launch) {
   recovery.appendChild(recoveryTitle);
 
   const booster = document.createElement('a');
+  booster.classList.add("slide-bar");
   booster.href = `booster_${launch.booster}.html`; // Update the link URL here
   booster.textContent = `Booster: ${launch.booster}`;
   recovery.appendChild(booster);
 
   const fairings = document.createElement('a');
+  fairings.classList.add("slide-bar");
   fairings.href = `fairing_${launch.fairings}.html`;
   fairings.textContent = `Fairings: ${launch.fairings}`;
   recovery.appendChild(fairings);
