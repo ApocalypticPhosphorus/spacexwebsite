@@ -19,9 +19,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '1',
-    launchyear: '2006: 1',
-    recoveries: '1/0/0'
+    launchyear: '2006: 1'
   },
   {
     rocketImg: 'images/falcon1.png',
@@ -42,9 +40,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '2',
-    launchyear: '2007: 1',
-    recoveries: '2/0/0'
+    launchyear: '2007: 1'
   },
   {
     rocketImg: 'images/falcon1.png',
@@ -65,9 +61,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '3',
-    launchyear: '2008: 1',
-    recoveries: '3/0/0'
+    launchyear: '2008: 1'
   },
   {
     rocketImg: 'images/falcon1.png',
@@ -88,9 +82,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '4',
-    launchyear: '2008: 2',
-    recoveries: '4/0/0'
+    launchyear: '2008: 2'
   },
   {
     rocketImg: 'images/falcon1.png',
@@ -111,9 +103,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '5',
-    launchyear: '2009: 1',
-    recoveries: '5/0/0'
+    launchyear: '2009: 1'
   },
   {
     rocketImg: 'images/falcon91.0.jpg',
@@ -134,9 +124,7 @@ const launches = [
     landing: 'Failure',
     fairings: 'N/A',
     
-    launch: '6',
-    launchyear: '2010: 1',
-    recoveries: '5/0/1'
+    launchyear: '2010: 1'
   },
   {
     rocketImg: 'images/falcon91.0.jpg',
@@ -157,9 +145,7 @@ const launches = [
     landing: 'Failure',
     fairings: 'N/A',
     
-    launch: '7',
-    launchyear: '2010: 2',
-    recoveries: '5/0/2'
+    launchyear: '2010: 2'
   },
   {
     rocketImg: 'images/falcon91.0.jpg',
@@ -180,9 +166,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '8',
-    launchyear: '2012: 1',
-    recoveries: '6/0/2'
+    launchyear: '2012: 1'
   },
   {
     rocketImg: 'images/CRS-1.jpg',
@@ -203,9 +187,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '9',
-    launchyear: '2012: 2',
-    recoveries: '7/0/2'
+    launchyear: '2012: 2'
   },
   {
     rocketImg: 'images/CRS-2.jpg',
@@ -226,9 +208,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '10',
-    launchyear: '2013: 1',
-    recoveries: '8/0/2'
+    launchyear: '2013: 1'
   },
   {
     rocketImg: 'images/CASSIOPE.jpg',
@@ -249,9 +229,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '11',
-    launchyear: '2013: 2',
-    recoveries: '9/0/2'
+    launchyear: '2013: 2'
   },
   {
     rocketImg: 'images/SES-8.jpg',
@@ -272,9 +250,7 @@ const launches = [
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '12',
-    launchyear: '2013: 3',
-    recoveries: '10/0/2'
+    launchyear: '2013: 3'
   },
   {
     rocketImg: 'images/THAICOM 6.jpg',
@@ -291,19 +267,197 @@ const launches = [
     configuration: 'Falcon 9 v1.1',
     cost: '~$56.5M-61.2M',
     
-    booster: 'N/A',
+    booster: 'B1005',
     landing: 'N/A',
     fairings: 'N/A',
     
-    launch: '13',
-    launchyear: '2014: 1',
-    recoveries: '11/0/2'
+    launchyear: '2014: 1'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'CRS-3',
+    date: 'April 18, 2014',
+    time: '19:25',
+
+    
+    cargo: 'SpaceX CRS-3 (Dragon C105)',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'LEO (ISS)',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1006',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2014: 2'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'Orbcomm-0G2-1',
+    date: 'July 14, 2014',
+    time: '15:15',
+
+    
+    cargo: 'Orbcomm-0G2-1 (6 Satellites)',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'LEO',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1007',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2014: 3'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'AsiaSat 8',
+    date: 'August 5, 2014',
+    time: '08:00',
+
+    
+    cargo: 'AsiaSat 8',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'GTO',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1008',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2014: 4'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'AsiaSat 6',
+    date: 'September 7, 2014',
+    time: '05:00',
+
+    
+    cargo: 'AsiaSat 6',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'GTO',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1011',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2014: 5'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'CRS-4',
+    date: 'September 21, 2014',
+    time: '05:52',
+
+    
+    cargo: 'SpaceX CRS-4 (Dragon C106)',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'LEO (ISS)',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1010',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2014: 6'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'CRS-5',
+    date: 'January 10, 2015',
+    time: '09:47',
+
+    
+    cargo: 'SpaceX CRS-5 (Dragon C107)',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'LEO (ISS)',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1012',
+    landing: 'Failure',
+    fairings: 'N/A',
+    
+    launchyear: '2015: 1'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'DSCOVR',
+    date: 'Febuary 11, 2015',
+    time: '23:03',
+
+    
+    cargo: 'DSCOVR',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'Sun-Earth L1',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1013',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2015: 2'
+  },
+  {
+    rocketImg: 'images/THAICOM 6.jpg',
+
+    mission: 'ABS/EutelSat-1',
+    date: 'March 2, 2015',
+    time: '03:50',
+
+    
+    cargo: 'ABS-3A, Eutelsat 115 West B',
+    result: 'Success',
+    launchComplex: 'Space Launch Complex 40, Cape Canaveral',
+    orbit: 'GTO',
+    configuration: 'Falcon 9 v1.1',
+    cost: '~$56.5M-61.2M',
+    
+    booster: 'B1014',
+    landing: 'N/A',
+    fairings: 'N/A',
+    
+    launchyear: '2015: 3'
   },
   
-  ];
+];
   
+launchNo = 0;
+recoveriesNo = [0,0,0]
+
 // Function to create a launch card element
 function createLaunchCard(launch) {
+  launchNo++;
+  if (launch.landing === 'Failure') {
+    recoveriesNo[2]++;
+  } else if (launch.landing === 'Success') {
+    recoveriesNo[1]++;
+  }else{
+    recoveriesNo[0]++;
+  }
+
   const card = document.createElement('div');
   card.className = 'card';
   
@@ -344,9 +498,9 @@ function createLaunchCard(launch) {
   const resultStatus = document.createElement('span');
   resultStatus.textContent = launch.result;
   if (launch.result === 'Failure') {
-      resultStatus.style.color = 'red';
+      resultStatus.style.color = '#d60000';
   } else if (launch.result === 'Success') {
-      resultStatus.style.color = 'lime';
+      resultStatus.style.color = 'limegreen';
   }
   resultPara.appendChild(resultStatus);
 
@@ -380,11 +534,17 @@ function createLaunchCard(launch) {
   recoveryTitle.textContent = 'Recovery';
   recovery.appendChild(recoveryTitle);
 
-  const booster = document.createElement('a');
-  booster.classList.add("slide-bar");
-  booster.href = `booster_${launch.booster}.html`; // Update the link URL here
-  booster.textContent = `Booster: ${launch.booster}`;
-  recovery.appendChild(booster);
+  if(launchNo > 30){
+    const booster = document.createElement('a');
+    booster.classList.add("slide-bar");
+    booster.href = `booster_${launch.booster}.html`; // Update the link URL here
+    booster.textContent = `Booster: ${launch.booster}`;
+    recovery.appendChild(booster);
+  }else{
+    const booster = document.createElement('p');
+    booster.textContent = `Booster: ${launch.booster}`;
+    recovery.appendChild(booster);
+  }
 
   const fairings = document.createElement('a');
   fairings.classList.add("slide-bar");
@@ -400,9 +560,9 @@ function createLaunchCard(launch) {
   const landingStatus = document.createElement('span');
   landingStatus.textContent = launch.landing;
   if (launch.landing === 'Failure') {
-    landingStatus.style.color = 'red';
+    landingStatus.style.color = '#d60000';
   } else if (launch.landing === 'Success') {
-    landingStatus.style.color = 'lime';
+    landingStatus.style.color = 'limegreen';
   }
   landingP.appendChild(landingStatus);
 
@@ -413,7 +573,7 @@ function createLaunchCard(launch) {
   statistics.className = 'statistics';
 
   const launchp = document.createElement('p');
-  launchp.textContent = `Launch #: ${launch.launch}`;
+  launchp.textContent = `Launch #: ${launchNo}`;
   statistics.appendChild(launchp);
 
   const launchyear = document.createElement('p');
@@ -421,7 +581,7 @@ function createLaunchCard(launch) {
   statistics.appendChild(launchyear);
 
   const recoveries = document.createElement('p');
-  recoveries.textContent = `Landings: ${launch.recoveries}`;
+  recoveries.textContent = `Landings: ` + recoveriesNo[0] + `/` + recoveriesNo[1] + `/` + recoveriesNo[2];
   statistics.appendChild(recoveries);
 
   card.append(info);
